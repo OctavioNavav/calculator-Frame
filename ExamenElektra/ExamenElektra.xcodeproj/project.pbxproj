@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C03A314422299D2F0044ACAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A314322299D2F0044ACAF /* AppDelegate.swift */; };
+		C03A314622299D2F0044ACAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A314522299D2F0044ACAF /* ViewController.swift */; };
+		C03A314922299D300044ACAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03A314722299D300044ACAF /* Main.storyboard */; };
+		C03A314B22299D3D0044ACAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03A314A22299D3D0044ACAF /* Assets.xcassets */; };
+		C03A314E22299D3D0044ACAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03A314C22299D3D0044ACAF /* LaunchScreen.storyboard */; };
+		C03A315722299FF30044ACAF /* Elektra1200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C03A315622299FF30044ACAF /* Elektra1200.jpg */; };
+		C03A315B2229B8350044ACAF /* MacBook-Air-2-BIG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C03A315A2229B8350044ACAF /* MacBook-Air-2-BIG.jpg */; };
+		C03A315D2229BAF30044ACAF /* ocultar.png in Resources */ = {isa = PBXBuildFile; fileRef = C03A315C2229BAF30044ACAF /* ocultar.png */; };
+		C03A315F2229BBCD0044ACAF /* usuario.png in Resources */ = {isa = PBXBuildFile; fileRef = C03A315E2229BBCD0044ACAF /* usuario.png */; };
+		C03A31632229BBF20044ACAF /* candad.png in Resources */ = {isa = PBXBuildFile; fileRef = C03A31622229BBF20044ACAF /* candad.png */; };
+		C03A31692229D6330044ACAF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A31682229D6330044ACAF /* DetailViewController.swift */; };
+		C03A316B2229D63D0044ACAF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A316A2229D63D0044ACAF /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C03A314022299D2F0044ACAF /* ExamenElektra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamenElektra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03A314322299D2F0044ACAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C03A314522299D2F0044ACAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C03A314822299D300044ACAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C03A314A22299D3D0044ACAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C03A314D22299D3D0044ACAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C03A314F22299D3D0044ACAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03A315622299FF30044ACAF /* Elektra1200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Elektra1200.jpg; sourceTree = "<group>"; };
+		C03A315A2229B8350044ACAF /* MacBook-Air-2-BIG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MacBook-Air-2-BIG.jpg"; sourceTree = "<group>"; };
+		C03A315C2229BAF30044ACAF /* ocultar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocultar.png; sourceTree = "<group>"; };
+		C03A315E2229BBCD0044ACAF /* usuario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usuario.png; sourceTree = "<group>"; };
+		C03A31622229BBF20044ACAF /* candad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candad.png; sourceTree = "<group>"; };
+		C03A31682229D6330044ACAF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "../../Swift-4-Xcode-9---How-To-Parse-JSON-Data-GET-in-TableView-Using-JsonDecoder-in-iOS-Latest-2017/json2demoget/json2demoget/DetailViewController.swift"; sourceTree = "<group>"; };
+		C03A316A2229D63D0044ACAF /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = "../../Swift-4-Xcode-9---How-To-Parse-JSON-Data-GET-in-TableView-Using-JsonDecoder-in-iOS-Latest-2017/json2demoget/json2demoget/TableViewCell.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C03A313D22299D2F0044ACAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C03A313722299D2F0044ACAF = {
+			isa = PBXGroup;
+			children = (
+				C03A314222299D2F0044ACAF /* ExamenElektra */,
+				C03A314122299D2F0044ACAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C03A314122299D2F0044ACAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C03A314022299D2F0044ACAF /* ExamenElektra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C03A314222299D2F0044ACAF /* ExamenElektra */ = {
+			isa = PBXGroup;
+			children = (
+				C03A31682229D6330044ACAF /* DetailViewController.swift */,
+				C03A314322299D2F0044ACAF /* AppDelegate.swift */,
+				C03A314522299D2F0044ACAF /* ViewController.swift */,
+				C03A316A2229D63D0044ACAF /* TableViewCell.swift */,
+				C03A314722299D300044ACAF /* Main.storyboard */,
+				C03A314A22299D3D0044ACAF /* Assets.xcassets */,
+				C03A314C22299D3D0044ACAF /* LaunchScreen.storyboard */,
+				C03A314F22299D3D0044ACAF /* Info.plist */,
+				C03A315522299FD40044ACAF /* images */,
+			);
+			path = ExamenElektra;
+			sourceTree = "<group>";
+		};
+		C03A315522299FD40044ACAF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C03A31622229BBF20044ACAF /* candad.png */,
+				C03A315E2229BBCD0044ACAF /* usuario.png */,
+				C03A315C2229BAF30044ACAF /* ocultar.png */,
+				C03A315622299FF30044ACAF /* Elektra1200.jpg */,
+				C03A315A2229B8350044ACAF /* MacBook-Air-2-BIG.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C03A313F22299D2F0044ACAF /* ExamenElektra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03A315222299D3D0044ACAF /* Build configuration list for PBXNativeTarget "ExamenElektra" */;
+			buildPhases = (
+				C03A313C22299D2F0044ACAF /* Sources */,
+				C03A313D22299D2F0044ACAF /* Frameworks */,
+				C03A313E22299D2F0044ACAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExamenElektra;
+			productName = ExamenElektra;
+			productReference = C03A314022299D2F0044ACAF /* ExamenElektra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C03A313822299D2F0044ACAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = GoNet;
+				TargetAttributes = {
+					C03A313F22299D2F0044ACAF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C03A313B22299D2F0044ACAF /* Build configuration list for PBXProject "ExamenElektra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C03A313722299D2F0044ACAF;
+			productRefGroup = C03A314122299D2F0044ACAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C03A313F22299D2F0044ACAF /* ExamenElektra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C03A313E22299D2F0044ACAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03A314E22299D3D0044ACAF /* LaunchScreen.storyboard in Resources */,
+				C03A31632229BBF20044ACAF /* candad.png in Resources */,
+				C03A315B2229B8350044ACAF /* MacBook-Air-2-BIG.jpg in Resources */,
+				C03A315D2229BAF30044ACAF /* ocultar.png in Resources */,
+				C03A315722299FF30044ACAF /* Elektra1200.jpg in Resources */,
+				C03A314B22299D3D0044ACAF /* Assets.xcassets in Resources */,
+				C03A314922299D300044ACAF /* Main.storyboard in Resources */,
+				C03A315F2229BBCD0044ACAF /* usuario.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C03A313C22299D2F0044ACAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03A31692229D6330044ACAF /* DetailViewController.swift in Sources */,
+				C03A316B2229D63D0044ACAF /* TableViewCell.swift in Sources */,
+				C03A314622299D2F0044ACAF /* ViewController.swift in Sources */,
+				C03A314422299D2F0044ACAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C03A314722299D300044ACAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03A314822299D300044ACAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C03A314C22299D3D0044ACAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03A314D22299D3D0044ACAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C03A315022299D3D0044ACAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C03A315122299D3D0044ACAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C03A315322299D3D0044ACAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExamenElektra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.Gonet.us.ExamenElektra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C03A315422299D3D0044ACAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExamenElektra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.Gonet.us.ExamenElektra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C03A313B22299D2F0044ACAF /* Build configuration list for PBXProject "ExamenElektra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03A315022299D3D0044ACAF /* Debug */,
+				C03A315122299D3D0044ACAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03A315222299D3D0044ACAF /* Build configuration list for PBXNativeTarget "ExamenElektra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03A315322299D3D0044ACAF /* Debug */,
+				C03A315422299D3D0044ACAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C03A313822299D2F0044ACAF /* Project object */;
+}
